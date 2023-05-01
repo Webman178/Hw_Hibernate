@@ -20,6 +20,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -32,6 +33,7 @@
       <artifactId>postgresql</artifactId>
       <version>42.6.0</version>
     </dependency>
+
   </dependencies>
   <build>
     <finalName>Hw_Hibernate</finalName>
