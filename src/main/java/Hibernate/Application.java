@@ -16,7 +16,7 @@ public class Application {
         Employee employee1 = new Employee("Astafiev","Sergey","male",22, city);
         list.add(employee1);
         list.add(new Employee("Solovev","Pavel","male",21,city));
-        list.add(new Employee("Soloveva","Ira","female",21,city));
+        list.add(new Employee("Soloveva","Ira","female",25,city));
 
         CityDAO cityDAO = new CityDAOImpl();
         EmployeeDAO employeeDAO = new  EmplyeeDAOImpl();
